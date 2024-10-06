@@ -1,0 +1,84 @@
+.gradient-background {
+    background: linear-gradient(135deg, #020024 40%, #173287 100%);
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.custom-button {
+    border: 2px solid white; /* White border */
+    background: linear-gradient(45deg, #173287, #020024); /* Gradient background */
+    color: white; /* White font color */
+    font-weight: bold; /* Bold text to stand out */
+    padding: 10px 20px; /* Padding for larger button */
+    transition: background 0.3s ease; /* Smooth transition on hover */
+}
+
+.custom-button:hover {
+    background: linear-gradient(45deg, #020024, #173287); /* Reversed gradient on hover */
+}
+
+.img-fluid{
+    border-bottom: white;
+    border-radius: 20px;
+}
+
+.brand-video {
+    width: 60px;  /* Adjust the size */
+    height: 60px; /* Adjust the size */
+    margin-right: 10px; /* Space between the video and text */
+    border-radius: 50%; /* Makes the video circular if needed */
+    object-fit: cover; /* Ensures the video fits properly */
+}
+
+.brand-text {
+    font-size: 1.2rem; /* Adjust text size if necessary */
+    vertical-align: middle; /* Ensures proper alignment */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.fav-icon {
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* Ensures the image fits inside the circular area */
+}
+
+.position-relative {
+    position: relative;
+}
+
+.circular-gif {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: -5%;
+    right: -2%; /* Adjust this to position it on the image as needed */
+    z-index: 10; /* Ensure it appears above the image */
+}
+
+
+/*.position-relative {*/
+/*    position: relative;*/
+/*}*/
+
+/*.circular-video {*/
+/*    width: 250px;*/
+/*    height: 250px;*/
+/*    border-radius: 50%;*/
+/*    object-fit: cover;*/
+/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
+/*    position: absolute;*/
+/*    top: 2%;*/
+/*    right: 5%; !* Adjust this to position it on the image as needed *!*/
+/*    z-index: 10; !* Ensure it appears above the image *!*/
+/*}*/
+
+
