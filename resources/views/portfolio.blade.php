@@ -33,7 +33,13 @@
                 <img src="project1.jpg" class="card-img-top" alt="Project 1">
                 <div class="card-body">
                     <h5 class="card-title">POS Systems</h5>
-                    <p class="card-text">Description of the project.</p>
+                    <p class="card-text">
+                        Developed a Point of Sale (POS) system using
+                        Laravel, HTML, and JavaScript, with responsive design
+                        powered by Bootstrap or Tailwind. The system integrates
+                        modern features for inventory management, transaction processing,
+                        and user-friendly interfaces to ensure smooth retail operations
+                    </p>
                 </div>
             </div>
         </div>
@@ -41,17 +47,31 @@
             <div class="card">
                 <img src="project1.jpg" class="card-img-top" alt="Project 1">
                 <div class="card-body">
-                    <h5 class="card-title">Websites</h5>
-                    <p class="card-text">Description of the project.</p>
+                    <h5 class="card-title">Websites & Web Apps</h5>
+                    <p class="card-text">
+                        Designed and developed responsive websites
+                        and web applications using Laravel or ReactJS
+                        along with HTML, Bootstrap, and JavaScript.
+                        These projects deliver seamless user experiences
+                        with efficient navigation, fast performance,
+                        and modern interactive elements. Each solution
+                        is tailored to the client's needs, ensuring both
+                        functionality and aesthetics align with contemporary web standards.</p>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                <img src="{{ asset('img/Mobile_UI.jpg') }}" class="card-img-top" alt="Project 3">
                 <div class="card-body">
                     <h5 class="card-title">UI Designs</h5>
-                    <p class="card-text">Description of the project.</p>
+                    <p class="card-text">
+                        Created intuitive and visually appealing
+                        UI designs using Figma, focusing on user
+                        experience and modern aesthetics.
+                        These designs ensure that users interact
+                        with products in a natural and engaging way,
+                        optimizing both functionality and visual harmony</p>
                 </div>
             </div>
         </div>
