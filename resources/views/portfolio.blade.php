@@ -7,7 +7,7 @@
     <div class="col-md-7 text-center">
         <h1 class="display-4">Hello, I'm Sanvarie Meegoda</h1>
         <p class="lead mt-4">
-            I am a dedicated software developer and UI/UX designer with over one year of experience
+            I am a dedicated web developer and UI/UX designer with over one year of experience
             in developing and designing web applications. My expertise includes Laravel, HTML,
             Bootstrap, JavaScript, and ReactJS for development, along with Figma for creating clean,
             user-friendly designs. I focus on delivering efficient, responsive, and visually
@@ -34,7 +34,7 @@
     <h2 class="text-center my-4">Projects</h2>
     <div class="row">
         <div class="col-md-4">
-            <div class="card">
+            <div class="card custom-border">
                 <img src="{{ asset('img/pos_img.jpg') }}" class="card-img-top" alt="Project 1">
                 <div class="card-body">
                     <h5 class="card-title">POS Systems</h5>
@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card custom-border">
                 <img src="{{ asset('img/web_ui.png') }}" class="card-img-top" alt="Project 1">
                 <div class="card-body">
                     <h5 class="card-title">Websites & Web Apps</h5>
@@ -67,7 +67,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card custom-border">
                 <img src="{{ asset('img/Mobile_UI.jpg') }}" class="card-img-top" alt="Project 3">
                 <div class="card-body">
                     <h5 class="card-title">UI Designs</h5>
@@ -86,21 +86,28 @@
 
 <div class="container" id="contact">
     <h2 class="text-center my-4">Contact Me</h2>
-    <form>
-        <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+    <div class="row align-items-center contact-gradient-background">
+        <div class="col-md-5">
+            <img src="{{ asset('videos/SM_logo.gif') }}" alt="GIF Overlay" class="contact-circular-gif">
         </div>
-        <div class="form-group">
-            <label for="email">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        <div class="col-md-7">
+            <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Submit</button>
+        </form>
         </div>
-        <div class="form-group">
-            <label for="message">Message</label>
-            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    </div>
 </div>
 
 @endsection

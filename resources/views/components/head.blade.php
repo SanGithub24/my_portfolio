@@ -6,7 +6,7 @@
     <title>Sanvarie Meegoda</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" class="fav-icon" href="{{ asset('img/logo.png') }}" sizes="16x16">
+    <link rel="icon" type="image/png" class="fav-icon" href="{{ asset('img/fav_icon_SM.png') }}" style="border-radius: 50%;">
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
