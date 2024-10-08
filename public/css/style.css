@@ -64,6 +64,10 @@
     z-index: 10; /* Ensure it appears above the image */
 }
 
+.card-text{
+    text-align: justify;
+}
+
 
 /*.position-relative {*/
 /*    position: relative;*/

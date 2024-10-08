@@ -6,8 +6,13 @@
     <!-- Left Column (Text and Button) -->
     <div class="col-md-7 text-center">
         <h1 class="display-4">Hello, I'm Sanvarie Meegoda</h1>
-        <p class="lead">I'm a Software Developer and UI/UX Designer.</p>
-        <a class="btn btn-primary btn-lg custom-button" href="#projects" role="button">View My Work</a>
+        <p class="lead mt-4">
+            I am a dedicated software developer and UI/UX designer with over one year of experience
+            in developing and designing web applications. My expertise includes Laravel, HTML,
+            Bootstrap, JavaScript, and ReactJS for development, along with Figma for creating clean,
+            user-friendly designs. I focus on delivering efficient, responsive, and visually
+            appealing applications that enhance user experience.</p>
+        <a class="btn btn-primary btn-lg custom-button mt-2" href="#projects" role="button">View My Work</a>
     </div>
 
     <!-- Right Column (Image) -->
@@ -30,22 +35,22 @@
     <div class="row">
         <div class="col-md-4">
             <div class="card">
-                <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                <img src="{{ asset('img/pos_img.jpg') }}" class="card-img-top" alt="Project 1">
                 <div class="card-body">
                     <h5 class="card-title">POS Systems</h5>
                     <p class="card-text">
-                        Developed a Point of Sale (POS) system using
-                        Laravel, HTML, and JavaScript, with responsive design
-                        powered by Bootstrap or Tailwind. The system integrates
-                        modern features for inventory management, transaction processing,
-                        and user-friendly interfaces to ensure smooth retail operations
+                        Developed a Point of Sale (POS) system using Laravel, HTML, and JavaScript,
+                        with responsive design powered by Bootstrap or Tailwind. The system integrates
+                        modern features for inventory management, transaction processing, and user-friendly
+                        interfaces to ensure smooth retail operations. Focused on scalability and security,
+                        the POS is built to handle multiple users and transactions efficiently.
                     </p>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                <img src="{{ asset('img/web_ui.png') }}" class="card-img-top" alt="Project 1">
                 <div class="card-body">
                     <h5 class="card-title">Websites & Web Apps</h5>
                     <p class="card-text">
@@ -56,7 +61,8 @@
                         with efficient navigation, fast performance,
                         and modern interactive elements. Each solution
                         is tailored to the client's needs, ensuring both
-                        functionality and aesthetics align with contemporary web standards.</p>
+                        functionality and aesthetics align with contemporary web standards.
+                    </p>
                 </div>
             </div>
         </div>
@@ -66,12 +72,12 @@
                 <div class="card-body">
                     <h5 class="card-title">UI Designs</h5>
                     <p class="card-text">
-                        Created intuitive and visually appealing
-                        UI designs using Figma, focusing on user
-                        experience and modern aesthetics.
-                        These designs ensure that users interact
-                        with products in a natural and engaging way,
-                        optimizing both functionality and visual harmony</p>
+                        Created intuitive and visually appealing UI designs using Figma, focusing on user
+                        experience and modern aesthetics. These designs ensure that users interact with
+                        products in a natural and engaging way, optimizing both functionality and visual
+                        harmony. Each design is tailored to improve usability while maintaining brand
+                        consistency and a polished, professional look.
+                    </p>
                 </div>
             </div>
         </div>
