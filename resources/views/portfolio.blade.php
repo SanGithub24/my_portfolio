@@ -31,13 +31,15 @@
 </div>
 
 <div class="container" id="projects">
-    <h2 class="text-center my-4">Projects</h2>
+    <h2 class="main-title text-center my-4">Projects</h2>
     <div class="row">
         <div class="col-md-4">
             <div class="card custom-border">
-                <img src="{{ asset('img/pos_img.jpg') }}" class="card-img-top" alt="Project 1">
+                <a href="{{ route('projects.pos') }}">
+                    <img src="{{ asset('img/pos_img.jpg') }}" class="card-img-top" alt="Project 1">
+                </a>
                 <div class="card-body">
-                    <h5 class="card-title">POS Systems</h5>
+                    <h5 class="card-title"><a href="{{ route('projects.pos') }}">POS Systems</a></h5>
                     <p class="card-text">
                         Developed a Point of Sale (POS) system using Laravel, HTML, and JavaScript,
                         with responsive design powered by Bootstrap or Tailwind. The system integrates
@@ -50,9 +52,11 @@
         </div>
         <div class="col-md-4">
             <div class="card custom-border">
-                <img src="{{ asset('img/web_ui.png') }}" class="card-img-top" alt="Project 1">
+                <a href="{{ route('projects.websites') }}">
+                    <img src="{{ asset('img/web_ui.png') }}" class="card-img-top" alt="Project 1">
+                </a>
                 <div class="card-body">
-                    <h5 class="card-title">Websites & Web Apps</h5>
+                    <h5 class="card-title"><a href="{{ route('projects.websites') }}">Websites & Web Apps</a></h5>
                     <p class="card-text">
                         Designed and developed responsive websites
                         and web applications using Laravel or ReactJS
@@ -68,9 +72,11 @@
         </div>
         <div class="col-md-4">
             <div class="card custom-border">
-                <img src="{{ asset('img/Mobile_UI.jpg') }}" class="card-img-top" alt="Project 3">
+                <a href="{{ route('projects.ui-designs') }}">
+                    <img src="{{ asset('img/Mobile_UI.jpg') }}" class="card-img-top" alt="Project 3">
+                </a>
                 <div class="card-body">
-                    <h5 class="card-title">UI Designs</h5>
+                    <h5 class="card-title"><a href="{{ route('projects.ui-designs') }}">UI Designs</a></h5>
                     <p class="card-text">
                         Created intuitive and visually appealing UI designs using Figma, focusing on user
                         experience and modern aesthetics. These designs ensure that users interact with
@@ -85,7 +91,7 @@
 </div>
 
 <div class="container" id="contact">
-    <h2 class="text-center my-4">Contact Me</h2>
+    <h2 class="main-title text-center my-4">Contact Me</h2>
     <div class="row align-items-center contact-gradient-background">
         <div class="col-md-5">
             <img src="{{ asset('videos/SM_logo.gif') }}" alt="GIF Overlay" class="contact-circular-gif">
