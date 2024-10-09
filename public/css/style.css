@@ -1,5 +1,12 @@
+body {
+    padding-top: 75px; /* Adjust based on the height of your navbar */
+}
+
 /*navbar*/
 
+.navbar{
+    background-color: white;
+}
 .brand-text, .nav-item{
     color: #173287;
 
@@ -108,6 +115,8 @@
 
 /*contact*/
 
+/*home page contact form*/
+
 .contact-gradient-background {
     background: linear-gradient(135deg, #173287 20%, #020024 100%);
     color: white;
@@ -141,26 +150,26 @@
 
 /*end*/
 
-/*.position-relative {*/
-/*    position: relative;*/
-/*}*/
+/*contact page*/
 
-/*.circular-video {*/
-/*    width: 250px;*/
-/*    height: 250px;*/
-/*    border-radius: 50%;*/
-/*    object-fit: cover;*/
-/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
-/*    position: absolute;*/
-/*    top: 2%;*/
-/*    right: 5%; !* Adjust this to position it on the image as needed *!*/
-/*    z-index: 10; !* Ensure it appears above the image *!*/
-/*}*/
+.icon-link {
+    color: #020024; /* Default icon color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
 
-/*.fav-icon {*/
-/*    !*width: 50px; !* Set a fixed width *!*!*/
-/*/height: 50px; !* Set a fixed height *!*/
-/*    border-radius: 50%; !* This makes the image circular *!*/
-/*    object-fit: cover; !* Ensures the image fits inside the circular area *!*/
-/*}*/
+.icon-link:hover {
+    color: #173287; /* Change to blue on hover */
+}
 
+.fa-2x {
+    margin-bottom: 10px;
+}
+
+.contact-title {
+    margin: 0;
+    font-size: 14px;
+    color: #173287;
+}
+
+/*end*/

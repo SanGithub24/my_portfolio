@@ -31,7 +31,7 @@
 </div>
 
 <div class="container" id="projects">
-    <h2 class="main-title text-center my-4">Projects</h2>
+    <h2 class="main-title text-center my-4"><a href="{{ route('projects.main') }}">Projects</a></h2>
     <div class="row">
         <div class="col-md-4">
             <div class="card custom-border">
@@ -91,7 +91,7 @@
 </div>
 
 <div class="container" id="contact">
-    <h2 class="main-title text-center my-4">Contact Me</h2>
+    <h2 class="main-title text-center my-4"><a href="{{ route('contact.contact') }}">Contact Me</a></h2>
     <div class="row align-items-center contact-gradient-background">
         <div class="col-md-5">
             <img src="{{ asset('videos/SM_logo.gif') }}" alt="GIF Overlay" class="contact-circular-gif">
