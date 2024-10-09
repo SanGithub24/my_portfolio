@@ -15,3 +15,7 @@ Route::prefix('projects')->name('projects.')->group(function () {
     Route::get('/websites', [PortfolioController::class, 'showWebsites'])->name('websites');
     Route::get('/ui-designs', [PortfolioController::class, 'showUIDesigns'])->name('ui-designs');
 });
+
+Route::prefix('contact')->name('contact.')->group(function () {
+    Route::get('/', [PortfolioController::class, 'contact'])->name('contact');
+});

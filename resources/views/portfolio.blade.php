@@ -12,7 +12,7 @@
             Bootstrap, JavaScript, and ReactJS for development, along with Figma for creating clean,
             user-friendly designs. I focus on delivering efficient, responsive, and visually
             appealing applications that enhance user experience.</p>
-        <a class="btn btn-primary btn-lg custom-button mt-2" href="#projects" role="button">View My Work</a>
+        <a class="btn btn-primary btn-lg custom-button mt-2" href="{{ route('projects.main') }}" role="button">View My Work</a>
     </div>
 
     <!-- Right Column (Image) -->

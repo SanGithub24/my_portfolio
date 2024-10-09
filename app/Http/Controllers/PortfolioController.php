@@ -31,4 +31,9 @@ class PortfolioController extends Controller
     {
         return view('projects.ui');
     }
+
+    public function contact()
+    {
+        return view('contact');
+    }
 }
